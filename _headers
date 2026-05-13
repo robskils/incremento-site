@@ -3,7 +3,7 @@
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: camera=(), microphone=(), geolocation=()
-  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://app.visitortracking.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://app.visitortracking.com; connect-src 'self' https://enquiries.incremento.co https://app.visitortracking.com;
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://app.visitortracking.com https://www.googletagmanager.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://app.visitortracking.com https://www.google-analytics.com; connect-src 'self' https://enquiries.incremento.co https://app.visitortracking.com https://www.google-analytics.com https://analytics.google.com https://region1.google-analytics.com;
 
 /css/*
   Cache-Control: public, max-age=31536000, immutable
