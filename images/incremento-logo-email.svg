@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 56" width="260" height="56">
+  <defs>
+    <linearGradient id="g" x1="0" y1="44" x2="44" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#C7F26B"/>
+      <stop offset="100%" stop-color="#7FE9E0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Icon mark — dark pill background -->
+  <rect x="0" y="4" width="44" height="44" rx="10" fill="#0F1426"/>
+
+  <!-- Bars -->
+  <rect x="6"  y="29" width="7" height="12" rx="3.5" fill="url(#g)" opacity="0.55"/>
+  <rect x="18" y="22" width="7" height="19" rx="3.5" fill="url(#g)" opacity="0.78"/>
+  <rect x="30" y="17" width="7" height="24" rx="3.5" fill="url(#g)"/>
+
+  <!-- Dot -->
+  <circle cx="33.5" cy="11" r="3" fill="url(#g)"/>
+
+  <!-- Wordmark -->
+  <text
+    x="58"
+    y="36"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="22"
+    font-weight="500"
+    letter-spacing="-0.5"
+    fill="#0F1426"
+  >incremento<tspan fill="#C7F26B">.</tspan></text>
+</svg>
