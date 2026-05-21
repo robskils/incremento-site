@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Incremento Labs — Consultoria de IA &amp; IA Aplicada</title>
+<meta name="description" content="Incremento Labs é a nossa consultoria de IA: estratégia, agentes personalizados, sistemas RAG e capacitação de equipas que entregam ROI mensurável.">
+<link rel="canonical" href="https://incremento.co/pt/labs/">
+<link rel="alternate" hreflang="en" href="https://incremento.co/labs/">
+<link rel="alternate" hreflang="pt" href="https://incremento.co/pt/labs/">
+<link rel="alternate" hreflang="x-default" href="https://incremento.co/labs/">
+<meta property="og:title" content="Incremento Labs — Consultoria de IA &amp; IA Aplicada">
+<meta property="og:description" content="Incremento Labs é a nossa consultoria de IA: estratégia, agentes personalizados, sistemas RAG e capacitação de equipas que entregam ROI mensurável.">
+<meta property="og:url" content="https://incremento.co/pt/labs/">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KX365T81ZP"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-KX365T81ZP");</script>
+<link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+<link rel="stylesheet" href="/css/inc.css">
+</head>
+<body>
+
+<!-- ── HEADER ──────────────────────────────────────────────── -->
+<header class="site-header">
+  <div class="container">
+    <div class="header-inner">
+      <a href="/pt/" class="logo" aria-label="Incremento — início">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+          <defs>
+            <linearGradient id="inc-grad-h" x1="0" y1="32" x2="32" y2="0" gradientUnits="userSpaceOnUse">
+              <stop offset="0%" stop-color="oklch(0.88 0.20 135)"/>
+              <stop offset="100%" stop-color="oklch(0.92 0.18 195)"/>
+            </linearGradient>
+          </defs>
+          <rect x="4"  y="20" width="5" height="8"  rx="2.5" fill="url(#inc-grad-h)" opacity="0.55"/>
+          <rect x="12" y="14" width="5" height="14" rx="2.5" fill="url(#inc-grad-h)" opacity="0.78"/>
+          <rect x="20" y="10" width="5" height="18" rx="2.5" fill="url(#inc-grad-h)"/>
+          <circle cx="22.5" cy="5.5" r="2.25" fill="url(#inc-grad-h)"/>
+        </svg>
+        <span class="logo-wordmark">incremento<span class="logo-dot">.</span></span>
+      </a>
+
+      <nav class="site-nav" aria-label="Navegação principal">
+        <a href="/pt/">Início</a>
+        <a href="/pt/services/">Serviços</a>
+        <a href="/pt/labs/" class="active">Labs</a>
+        <a href="/pt/work/">Trabalho</a>
+        <a href="/pt/about/">Sobre</a>
+        <a href="/pt/blog/">Blog</a>
+        <a href="/pt/contact/">Contacto</a>
+        <a href="/labs/" class="lang-switch" style="margin-left:1rem; padding:0.25rem 0.6rem; border:1px solid oklch(0.88 0.20 135 / 0.4); border-radius:4px; font-size:0.7rem; letter-spacing:0.12em; color:oklch(0.88 0.20 135); text-decoration:none;">EN</a>
+      </nav>
+
+      <a href="/pt/contact/" class="btn btn-hero header-cta">Iniciar um projeto</a>
+
+      <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+        <svg class="icon-menu" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        <svg class="icon-close" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" style="display:none"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+    </div>
+  </div>
+  <div class="mobile-nav" aria-label="Navegação móvel">
+    <div class="mobile-nav-inner">
+      <a href="/pt/">Início</a>
+        <a href="/pt/services/">Serviços</a>
+      <a href="/pt/labs/">Labs</a>
+      <a href="/pt/work/">Trabalho</a>
+      <a href="/pt/about/">Sobre</a>
+      <a href="/pt/blog/">Blog</a>
+      <a href="/pt/contact/">Contacto</a>
+      <a href="/pt/contact/" class="btn btn-hero" style="margin-top:0.5rem">Iniciar um projeto</a>
+    </div>
+  </div>
+</header>
+
+<!-- ── HERO ────────────────────────────────────────────────── -->
+<section class="hero">
+  <div class="hero-grid grid-bg" aria-hidden="true"></div>
+  <div class="hero-fade" aria-hidden="true"></div>
+  <div class="container">
+    <div class="hero-content section-hero">
+      <span class="eyebrow hero-animate">
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" style="display:inline"><path d="M9 3H5a2 2 0 00-2 2v4m6-6h10a2 2 0 012 2v4M9 3v18m0 0h10a2 2 0 002-2V9M9 21H5a2 2 0 01-2-2V9m0 0h18"/></svg>
+        Incremento Labs · Consultoria de IA
+      </span>
+      <h1 class="mt-6 hero-animate-delay">
+        Faça da IA uma <span class="text-gradient">vantagem competitiva</span>,<br>não um projeto secundário.
+      </h1>
+      <p class="hero-lead hero-animate-delay2">
+        Incremento Labs é a nossa prática de IA aplicada — um estúdio irmão dos nossos serviços digitais principais. Ajudamos equipas ambiciosas a encontrar onde a IA cria valor real, depois a desenhar, lançar e operacionalizar com o rigor de uma equipa sénior de produto.
+      </p>
+      <div class="hero-ctas hero-animate-delay2">
+        <a href="/pt/contact/" class="btn btn-hero btn-xl">
+          Agendar uma chamada de estratégia de IA
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+        <a href="/pt/work/" class="btn btn-outline btn-xl">Ver casos de estudo de IA</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── OFFERINGS ─────────────────────────────────────────── -->
+<section class="section">
+  <div class="container">
+    <span class="eyebrow">O que entregamos</span>
+    <h2 class="mt-4">Da auditoria ao <span class="text-gradient">impacto lançado</span>.</h2>
+    <div class="services-grid">
+
+      <div class="card">
+        <div class="card-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg>
+        </div>
+        <h3>Auditoria de Oportunidades de IA</h3>
+        <p class="mt-2 text-muted" style="font-size:0.875rem">Mapeamos os seus fluxos de trabalho, avaliamos o ROI de cada aposta de IA e entregamos-lhe um roteiro prioritizado — não um conjunto de slides cheio de especulação.</p>
+      </div>
+
+      <div class="card">
+        <div class="card-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+        </div>
+        <h3>Agentes &amp; Copilotos Personalizados</h3>
+        <p class="mt-2 text-muted" style="font-size:0.875rem">Agentes treinados no domínio que se integram com o seu stack e dados existentes — construídos para lidar com volume real, não apenas demos.</p>
+      </div>
+
+      <div class="card">
+        <div class="card-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        </div>
+        <h3>RAG &amp; Sistemas de Conhecimento</h3>
+        <p class="mt-2 text-muted" style="font-size:0.875rem">Pipelines de recuperação aumentada sobre os seus documentos, dados e APIs para que a sua IA responda com base em factos reais, não em alucinações.</p>
+      </div>
+
+      <div class="card">
+        <div class="card-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+        </div>
+        <h3>Marketing Aumentado por IA</h3>
+        <p class="mt-2 text-muted" style="font-size:0.875rem">Conteúdo personalizado à escala, segmentação mais inteligente e experimentação orientada por IA que torna a sua equipa mais rápida sem perder qualidade.</p>
+      </div>
+
+      <div class="card">
+        <div class="card-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        </div>
+        <h3>Avaliações, Segurança &amp; Governação</h3>
+        <p class="mt-2 text-muted" style="font-size:0.875rem">Frameworks de avaliação, red-teaming e salvaguardas para que a sua IA lance com confiança e se mantenha dentro dos limites em produção.</p>
+      </div>
+
+      <div class="card">
+        <div class="card-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+        </div>
+        <h3>Capacitação &amp; Formação</h3>
+        <p class="mt-2 text-muted" style="font-size:0.875rem">Workshops práticos e coaching integrado para que a sua equipa consiga manter, iterar e expandir sistemas de IA muito depois de terminarmos.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── LABS SPRINT ────────────────────────────────────────── -->
+<section class="section">
+  <div class="container">
+    <div class="ai-block">
+      <div class="ai-block-glow-1" aria-hidden="true"></div>
+      <div class="ai-block-glow-2" aria-hidden="true"></div>
+      <div class="ai-block-inner">
+        <span class="eyebrow">O Labs Sprint</span>
+        <h2 class="mt-4">Seis semanas. Um fluxo lançado. <span class="text-gradient">ROI real.</span></h2>
+        <p class="mt-4 text-muted" style="font-size:0.95rem; max-width:42rem; line-height:1.75">O nosso Labs Sprint é um engagement de âmbito e taxa fixos que o leva do zero a uma funcionalidade de IA em produção — com avaliações, dashboards e entrega total à equipa no final.</p>
+        <div class="sprint-grid">
+          <div class="card">
+            <div class="sprint-week">Semanas 1–2</div>
+            <div class="sprint-title">Auditoria &amp; Roteiro</div>
+            <p class="text-muted" style="font-size:0.875rem">Mapeamento de fluxos, avaliação de ROI, escolha da primeira aposta certa. Sai com um plano claro e adesão das partes interessadas.</p>
+          </div>
+          <div class="card">
+            <div class="sprint-week">Semanas 3–4</div>
+            <div class="sprint-title">Protótipo</div>
+            <p class="text-muted" style="font-size:0.875rem">Uma funcionalidade de IA funcional integrada com o seu stack e dados — não uma simulação, não um slide. Algo que a sua equipa pode realmente usar.</p>
+          </div>
+          <div class="card">
+            <div class="sprint-week">Semanas 5–6</div>
+            <div class="sprint-title">Lançar &amp; Avaliar</div>
+            <p class="text-muted" style="font-size:0.875rem">Lançamento em produção, framework de avaliações, dashboards de desempenho e entrega à equipa para que possa continuar a iterar depois de terminarmos.</p>
+          </div>
+        </div>
+        <div class="mt-10">
+          <a href="/pt/contact/" class="btn btn-hero btn-xl">
+            Agendar uma chamada de estratégia de IA
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── FOOTER ───────────────────────────────────────────────── -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div style="grid-column: span 1">
+        <a href="/pt/" class="logo" aria-label="Incremento — início">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+            <defs><linearGradient id="inc-grad-f" x1="0" y1="32" x2="32" y2="0" gradientUnits="userSpaceOnUse"><stop offset="0%" stop-color="oklch(0.88 0.20 135)"/><stop offset="100%" stop-color="oklch(0.92 0.18 195)"/></linearGradient></defs>
+            <rect x="4" y="20" width="5" height="8" rx="2.5" fill="url(#inc-grad-f)" opacity="0.55"/>
+            <rect x="12" y="14" width="5" height="14" rx="2.5" fill="url(#inc-grad-f)" opacity="0.78"/>
+            <rect x="20" y="10" width="5" height="18" rx="2.5" fill="url(#inc-grad-f)"/>
+            <circle cx="22.5" cy="5.5" r="2.25" fill="url(#inc-grad-f)"/>
+          </svg>
+          <span class="logo-wordmark">incremento<span class="logo-dot">.</span></span>
+        </a>
+        <p class="mt-4 text-muted" style="max-width:24rem; font-size:0.875rem">Um estúdio digital em duas partes: <span style="color:var(--fg)">Incremento</span> para web, produto &amp; crescimento, e <span style="color:var(--fg)">Incremento Labs</span> para consultoria de IA aplicada.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          </a>
+          <a href="#" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+          <a href="#" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Estúdio</h4>
+        <ul>
+          <li><a href="/pt/">Início</a>
+        <a href="/pt/services/">Serviços</a></li>
+          <li><a href="/pt/labs/">Incremento Labs</a></li>
+          <li><a href="/pt/work/">Trabalho</a></li>
+          <li><a href="/pt/about/">Sobre</a></li>
+          <li><a href="/pt/blog/">Blog</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contacte-nos</h4>
+        <ul style="gap:0.75rem">
+          <li class="footer-contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <a href="mailto:contact@incremento.co" style="color:inherit;text-decoration:none">contact@incremento.co</a>
+          </li>
+          <li class="footer-contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            Lisboa, Portugal
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© <script>document.write(new Date().getFullYear())</script> Incremento. Todos os direitos reservados.</p>
+      <p>Criado em Lisboa · Entregue em todo o mundo</p>
+    </div>
+  </div>
+</footer>
+
+<script async defer src="https://app.visitortracking.com/assets/js/tracer.js"></script>
+<script>function init_tracer(){var tracer=new Tracer({websiteId:"9b770790-8cca-47ce-be01-208be832ce14",async:true,debug:false});}</script>
+<script src="/js/inc.js"></script>
+</body>
+</html>
