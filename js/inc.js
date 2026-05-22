@@ -67,11 +67,10 @@
       .map(t => t.dataset.value);
 
     const payload = {
-      name:      form.name.value,
-      email:     form.email.value,
-      company:   form.company.value,
-      interests,
-      message:   form.message.value,
+      name:      document.getElementById('name').value,
+email:     document.getElementById('email').value,
+company:   document.getElementById('company').value,
+message:   document.getElementById('message').value,
       submitted: new Date().toISOString(),
     };
 
