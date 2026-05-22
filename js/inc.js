@@ -68,9 +68,10 @@
 
     const payload = {
       name:      document.getElementById('name').value,
-email:     document.getElementById('email').value,
-company:   document.getElementById('company').value,
-message:   document.getElementById('message').value,
+      email:     document.getElementById('email').value,
+      company:   document.getElementById('company').value,
+      interests,
+      message:   document.getElementById('message').value,
       submitted: new Date().toISOString(),
     };
 
