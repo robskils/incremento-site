@@ -83,8 +83,7 @@
       });
 
       if (res.ok) {
-        form.style.display = 'none';
-        success.style.display = 'flex';
+        window.location.href = '/thank-you/';
       } else {
         throw new Error('Server error');
       }
