@@ -6,3 +6,18 @@
 
 # PT blog slugs are Portuguese
 /pt/blog/websites-for-lawyers/  /pt/blog/websites-para-advogados/  301
+
+# PT URLs translated to Portuguese slugs
+/pt/services/*  /pt/servicos/:splat  301
+/pt/work/  /pt/trabalho/  301
+/pt/about/  /pt/sobre/  301
+/pt/contact/  /pt/contacto/  301
+/pt/websites-for-lawyers/  /pt/websites-para-advogados/  301
+/pt/blog/web-design-lisbon/  /pt/blog/web-design-lisboa/  301
+/pt/blog/seo-lisbon/  /pt/blog/seo-lisboa/  301
+/pt/blog/lisbon-tech-scene/  /pt/blog/cena-tech-lisboa/  301
+/pt/blog/ai-consultancy-lisbon/  /pt/blog/consultoria-ia-lisboa/  301
+/pt/blog/digital-agency-lisbon/  /pt/blog/agencia-digital-lisboa/  301
+/pt/blog/digital-marketing-lisbon/  /pt/blog/marketing-digital-lisboa/  301
+/pt/blog/small-business-websites-lisbon/  /pt/blog/websites-pequenas-empresas-lisboa/  301
+/pt/blog/how-ai-is-reshaping-digital-marketing/  /pt/blog/como-a-ia-esta-a-transformar-o-marketing-digital/  301

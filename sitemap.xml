@@ -30,30 +30,30 @@
 
   <!-- Portuguese versions -->
   <url><loc>https://incremento.co/pt/</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://incremento.co/pt/services/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://incremento.co/pt/services/web-design/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://incremento.co/pt/services/ux-product-design/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://incremento.co/pt/services/mobile-app-ui/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://incremento.co/pt/services/web-development/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://incremento.co/pt/services/ecommerce/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://incremento.co/pt/services/ai-automation/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://incremento.co/pt/services/seo/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://incremento.co/pt/services/paid-social/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://incremento.co/pt/services/analytics-cro/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://incremento.co/pt/websites-for-lawyers/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://incremento.co/pt/servicos/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://incremento.co/pt/servicos/web-design/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://incremento.co/pt/servicos/ux-product-design/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://incremento.co/pt/servicos/mobile-app-ui/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://incremento.co/pt/servicos/web-development/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://incremento.co/pt/servicos/ecommerce/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://incremento.co/pt/servicos/ai-automation/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://incremento.co/pt/servicos/seo/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://incremento.co/pt/servicos/paid-social/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://incremento.co/pt/servicos/analytics-cro/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://incremento.co/pt/websites-para-advogados/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://incremento.co/pt/labs/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://incremento.co/pt/work/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://incremento.co/pt/about/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://incremento.co/pt/contact/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://incremento.co/pt/trabalho/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://incremento.co/pt/sobre/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://incremento.co/pt/contacto/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://incremento.co/pt/blog/</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://incremento.co/pt/blog/media-innovator-awards-2025/</loc><changefreq>yearly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://incremento.co/pt/blog/small-business-websites-lisbon/</loc><changefreq>yearly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://incremento.co/pt/blog/digital-agency-lisbon/</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://incremento.co/pt/blog/digital-marketing-lisbon/</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://incremento.co/pt/blog/websites-pequenas-empresas-lisboa/</loc><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://incremento.co/pt/blog/agencia-digital-lisboa/</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://incremento.co/pt/blog/marketing-digital-lisboa/</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://incremento.co/pt/blog/websites-para-advogados/</loc><changefreq>yearly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://incremento.co/pt/blog/web-design-lisbon/</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://incremento.co/pt/blog/seo-lisbon/</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://incremento.co/pt/blog/lisbon-tech-scene/</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://incremento.co/pt/blog/ai-consultancy-lisbon/</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://incremento.co/pt/blog/how-ai-is-reshaping-digital-marketing/</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://incremento.co/pt/blog/web-design-lisboa/</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://incremento.co/pt/blog/seo-lisboa/</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://incremento.co/pt/blog/cena-tech-lisboa/</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://incremento.co/pt/blog/consultoria-ia-lisboa/</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://incremento.co/pt/blog/como-a-ia-esta-a-transformar-o-marketing-digital/</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
 </urlset>
