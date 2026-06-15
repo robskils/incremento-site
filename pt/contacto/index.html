@@ -168,6 +168,24 @@
   </div>
 </section>
 
+<!-- ── MARCAR CHAMADA EXPLORATÓRIA ──────────────────────────── -->
+<section class="section-sm" id="book" style="border-top:1px solid oklch(0.88 0.20 135 / 0.12)">
+  <div class="container" style="text-align:center">
+    <span class="eyebrow">Prefere marcar diretamente?</span>
+    <h2 class="mt-4">Marque uma <span class="text-gradient">chamada exploratória</span>.</h2>
+    <p class="mt-4 text-muted" style="max-width:34rem; margin:0 auto 2.5rem; font-size:1rem">Uma chamada gratuita de 30 minutos — escolha a hora que lhe der jeito e falamos sobre o seu projeto.</p>
+    <div style="background:rgba(255,255,255,0.02); border:1px solid oklch(0.88 0.20 135 / 0.18); border-radius:18px; padding:1.25rem; max-width:62rem; margin:0 auto">
+      <div id="cal-book" style="min-height:620px; width:100%"></div>
+    </div>
+  </div>
+</section>
+<script type="text/javascript">
+(function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; if (typeof namespace === "string") { cal.ns[namespace] = cal.ns[namespace] || api; p(cal.ns[namespace], ar); p(cal, ["initNamespace", namespace]); } else p(cal, ar); return; } p(cal, ar); }; })(window, "https://app.cal.com/embed/embed.js", "init");
+Cal("init", "discovery", { origin: "https://cal.com" });
+Cal.ns.discovery("inline", { elementOrSelector: "#cal-book", config: { layout: "month_view" }, calLink: "incremento/discovery" });
+Cal.ns.discovery("ui", { theme: "dark", cssVarsPerTheme: { light: { "cal-brand": "#9EF54A" }, dark: { "cal-brand": "#9EF54A" } }, hideEventTypeDetails: false, layout: "month_view" });
+</script>
+
 <!-- ── FOOTER ───────────────────────────────────────────────── -->
 <footer class="site-footer">
   <div class="container">

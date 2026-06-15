@@ -96,7 +96,7 @@
         <strong>Incremento Labs</strong> is our custom software &amp; AI consultancy — embedding agents, RAG and automation where they actually move the needle.
       </p>
       <div class="hero-ctas hero-animate-delay2">
-        <a href="/contact/" class="btn btn-hero btn-xl">
+        <a href="#book" class="btn btn-hero btn-xl">
           Book a free strategy call
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
         </a>
@@ -398,6 +398,43 @@
     </div>
   </div>
 </section>
+
+<!-- ── CTA ──────────────────────────────────────────────────── -->
+<!-- ── BOOK A DISCOVERY CALL ────────────────────────────────── -->
+<section class="section" id="book">
+  <div class="container" style="text-align:center">
+    <span class="eyebrow">Discovery call</span>
+    <h2 class="mt-4">Let's talk about <span class="text-gradient">your project</span>.</h2>
+    <p class="mt-4 text-muted" style="max-width:34rem; margin:0 auto; font-size:1.05rem">A free 30-minute call — no pitch, just a conversation about where you're headed and how we can help.</p>
+    <div class="hero-ctas mt-8" style="justify-content:center">
+      <button type="button" id="book-toggle" class="btn btn-hero btn-xl" aria-expanded="false" aria-controls="book-panel">
+        Book a discovery call
+        <svg id="book-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" style="transition:transform .25s ease"><polyline points="6 9 12 15 18 9"/></svg>
+      </button>
+    </div>
+    <div id="book-panel" style="display:none; margin-top:2.5rem">
+      <div style="background:rgba(255,255,255,0.02); border:1px solid oklch(0.88 0.20 135 / 0.18); border-radius:18px; padding:1.25rem; max-width:62rem; margin:0 auto">
+        <div id="cal-book-home" style="min-height:620px; width:100%"></div>
+      </div>
+    </div>
+  </div>
+</section>
+<script type="text/javascript">
+(function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; if (typeof namespace === "string") { cal.ns[namespace] = cal.ns[namespace] || api; p(cal.ns[namespace], ar); p(cal, ["initNamespace", namespace]); } else p(cal, ar); return; } p(cal, ar); }; })(window, "https://app.cal.com/embed/embed.js", "init");
+Cal("init", "discovery", { origin: "https://cal.com" });
+Cal.ns.discovery("ui", { theme: "dark", cssVarsPerTheme: { light: { "cal-brand": "#9EF54A" }, dark: { "cal-brand": "#9EF54A" } }, hideEventTypeDetails: false, layout: "month_view" });
+(function () {
+  var btn = document.getElementById('book-toggle'), panel = document.getElementById('book-panel'), chev = document.getElementById('book-chevron');
+  if (!btn) return;
+  var inited = false;
+  btn.addEventListener('click', function () {
+    if (panel.style.display === 'block') { panel.style.display = 'none'; btn.setAttribute('aria-expanded', 'false'); if (chev) chev.style.transform = 'rotate(0deg)'; return; }
+    panel.style.display = 'block'; btn.setAttribute('aria-expanded', 'true'); if (chev) chev.style.transform = 'rotate(180deg)';
+    if (!inited) { inited = true; Cal.ns.discovery("inline", { elementOrSelector: "#cal-book-home", config: { layout: "month_view" }, calLink: "incremento/discovery" }); }
+    setTimeout(function () { panel.scrollIntoView({ behavior: 'smooth', block: 'center' }); }, 120);
+  });
+})();
+</script>
 
 <!-- ── CTA ──────────────────────────────────────────────────── -->
 <section class="section">

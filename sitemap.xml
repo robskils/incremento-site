@@ -16,6 +16,7 @@
   <url><loc>https://incremento.co/work/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://incremento.co/about/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://incremento.co/contact/</loc><changefreq>yearly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://incremento.co/book/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://incremento.co/blog/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://incremento.co/blog/small-business-websites-lisbon/</loc><changefreq>yearly</changefreq><priority>0.7</priority></url>
   <url><loc>https://incremento.co/blog/media-innovator-awards-2025/</loc><changefreq>yearly</changefreq><priority>0.8</priority></url>
@@ -45,6 +46,7 @@
   <url><loc>https://incremento.co/pt/trabalho/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://incremento.co/pt/sobre/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://incremento.co/pt/contacto/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://incremento.co/pt/marcar/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://incremento.co/pt/blog/</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://incremento.co/pt/blog/media-innovator-awards-2025/</loc><changefreq>yearly</changefreq><priority>0.7</priority></url>
   <url><loc>https://incremento.co/pt/blog/websites-pequenas-empresas-lisboa/</loc><changefreq>yearly</changefreq><priority>0.7</priority></url>
