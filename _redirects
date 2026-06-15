@@ -3,3 +3,6 @@
 
 # Example:
 # /old-page  /new-page  301
+
+# PT blog slugs are Portuguese
+/pt/blog/websites-for-lawyers/  /pt/blog/websites-para-advogados/  301
