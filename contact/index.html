@@ -126,17 +126,23 @@
             </div>
           </div>
 
-          <div class="form-field">
-            <label for="company">Company</label>
-            <input type="text" id="company" name="company" placeholder="Company / brand" autocomplete="organization">
+          <div class="form-row form-row-2">
+            <div class="form-field">
+              <label for="company">Company</label>
+              <input type="text" id="company" name="company" placeholder="Company / brand" autocomplete="organization">
+            </div>
+            <div class="form-field">
+              <label for="phone">Phone <span style="opacity:0.55;font-weight:400">(optional)</span></label>
+              <input type="tel" id="phone" name="phone" placeholder="+351 …" autocomplete="tel">
+            </div>
           </div>
 
           <div class="form-field">
             <label>What are you interested in?</label>
             <div class="interest-tags">
               <button type="button" class="interest-tag" data-value="web-design">Web Design</button>
-              <button type="button" class="interest-tag" data-value="web-apps">Web Apps</button>
               <button type="button" class="interest-tag" data-value="digital-marketing">Digital Marketing</button>
+              <button type="button" class="interest-tag" data-value="web-apps">Web Apps</button>
               <button type="button" class="interest-tag" data-value="ai-consultancy">AI Consultancy</button>
               <button type="button" class="interest-tag" data-value="custom-software">Custom Software</button>
               <button type="button" class="interest-tag" data-value="not-sure">Not sure yet</button>
@@ -144,8 +150,8 @@
           </div>
 
           <div class="form-field">
-            <label for="message">Project details</label>
-            <textarea id="message" name="message" required rows="6" placeholder="Goals, timeline, budget range, links..."></textarea>
+            <label for="message">Project details <span style="opacity:0.55;font-weight:400">(optional)</span></label>
+            <textarea id="message" name="message" rows="6" placeholder="Goals, timeline, budget range, links..."></textarea>
           </div>
 
           <button type="submit" class="btn btn-hero btn-lg" style="width:100%; justify-content:center">

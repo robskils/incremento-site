@@ -126,17 +126,23 @@
             </div>
           </div>
 
-          <div class="form-field">
-            <label for="company">Empresa</label>
-            <input type="text" id="company" name="company" placeholder="Empresa / marca" autocomplete="organization">
+          <div class="form-row form-row-2">
+            <div class="form-field">
+              <label for="company">Empresa</label>
+              <input type="text" id="company" name="company" placeholder="Empresa / marca" autocomplete="organization">
+            </div>
+            <div class="form-field">
+              <label for="phone">Teléfono <span style="opacity:0.55;font-weight:400">(opcional)</span></label>
+              <input type="tel" id="phone" name="phone" placeholder="+34 …" autocomplete="tel">
+            </div>
           </div>
 
           <div class="form-field">
             <label>¿Qué te interesa?</label>
             <div class="interest-tags">
               <button type="button" class="interest-tag" data-value="web-design">Diseño Web</button>
-              <button type="button" class="interest-tag" data-value="web-apps">Aplicaciones Web</button>
               <button type="button" class="interest-tag" data-value="digital-marketing">Marketing Digital</button>
+              <button type="button" class="interest-tag" data-value="web-apps">Aplicaciones Web</button>
               <button type="button" class="interest-tag" data-value="ai-consultancy">Consultoría de IA</button>
               <button type="button" class="interest-tag" data-value="custom-software">Software a Medida</button>
               <button type="button" class="interest-tag" data-value="not-sure">Aún no lo sé</button>
@@ -144,8 +150,8 @@
           </div>
 
           <div class="form-field">
-            <label for="message">Detalles del proyecto</label>
-            <textarea id="message" name="message" required rows="6" placeholder="Objetivos, plazos, presupuesto estimado, enlaces..."></textarea>
+            <label for="message">Detalles del proyecto <span style="opacity:0.55;font-weight:400">(opcional)</span></label>
+            <textarea id="message" name="message" rows="6" placeholder="Objetivos, plazos, presupuesto estimado, enlaces..."></textarea>
           </div>
 
           <button type="submit" class="btn btn-hero btn-lg" style="width:100%; justify-content:center">
