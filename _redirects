@@ -1,8 +1,45 @@
 # Cloudflare Pages redirects
-# Add future redirects here as needed
-
+# Rules are evaluated top-to-bottom, FIRST MATCH WINS.
+# Keep specific rules above wildcards, or the wildcard will shadow them
+# and create multi-hop chains.
+#
 # Example:
 # /old-page  /new-page  301
+
+# ── PT/ES service slugs translated to local search terms (2026-07-14) ──
+# PT buyers search "criação de sites", not "web design"; ES search "diseño web".
+# These sit ABOVE the /pt/services/* wildcard so an old English URL lands on the
+# final destination in ONE hop instead of two.
+
+# Old English path -> new local slug (direct, no chain)
+/pt/services/web-design/  /pt/servicos/criacao-de-sites/  301
+/pt/services/web-development/  /pt/servicos/desenvolvimento-web/  301
+/pt/services/ai-automation/  /pt/servicos/automacao-com-ia/  301
+/pt/services/ecommerce/  /pt/servicos/lojas-online/  301
+/pt/services/mobile-app-ui/  /pt/servicos/design-de-apps/  301
+/pt/services/paid-social/  /pt/servicos/publicidade-redes-sociais/  301
+/pt/services/ux-product-design/  /pt/servicos/ux-design-de-produto/  301
+
+# Old English slug on the PT path -> new local slug
+/pt/servicos/web-design/  /pt/servicos/criacao-de-sites/  301
+/pt/servicos/web-development/  /pt/servicos/desenvolvimento-web/  301
+/pt/servicos/ai-automation/  /pt/servicos/automacao-com-ia/  301
+/pt/servicos/ecommerce/  /pt/servicos/lojas-online/  301
+/pt/servicos/mobile-app-ui/  /pt/servicos/design-de-apps/  301
+/pt/servicos/paid-social/  /pt/servicos/publicidade-redes-sociais/  301
+/pt/servicos/ux-product-design/  /pt/servicos/ux-design-de-produto/  301
+
+# Old English slug on the ES path -> new local slug
+/es/servicios/web-design/  /es/servicios/diseno-web/  301
+/es/servicios/web-development/  /es/servicios/desarrollo-web/  301
+/es/servicios/ai-automation/  /es/servicios/automatizacion-con-ia/  301
+/es/servicios/ecommerce/  /es/servicios/tiendas-online/  301
+/es/servicios/mobile-app-ui/  /es/servicios/diseno-de-apps/  301
+/es/servicios/paid-social/  /es/servicios/publicidad-redes-sociales/  301
+/es/servicios/ux-product-design/  /es/servicios/ux-diseno-de-producto/  301
+
+# Also catch the English /es/services/ path if it is ever hit
+/es/services/*  /es/servicios/:splat  301
 
 # PT blog slugs are Portuguese
 /pt/blog/websites-for-lawyers/  /pt/blog/websites-para-advogados/  301

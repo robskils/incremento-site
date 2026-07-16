@@ -39,14 +39,14 @@
   <!-- Portuguese versions -->
   <url><loc>https://incremento.co/pt/</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://incremento.co/pt/servicos/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://incremento.co/pt/servicos/web-design/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://incremento.co/pt/servicos/ux-product-design/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://incremento.co/pt/servicos/mobile-app-ui/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://incremento.co/pt/servicos/web-development/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://incremento.co/pt/servicos/ecommerce/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://incremento.co/pt/servicos/ai-automation/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://incremento.co/pt/servicos/criacao-de-sites/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://incremento.co/pt/servicos/ux-design-de-produto/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://incremento.co/pt/servicos/design-de-apps/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://incremento.co/pt/servicos/desenvolvimento-web/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://incremento.co/pt/servicos/lojas-online/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://incremento.co/pt/servicos/automacao-com-ia/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://incremento.co/pt/servicos/seo/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://incremento.co/pt/servicos/paid-social/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://incremento.co/pt/servicos/publicidade-redes-sociais/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://incremento.co/pt/servicos/analytics-cro/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://incremento.co/pt/websites-para-advogados/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://incremento.co/pt/websites-para-contabilistas/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
@@ -76,14 +76,14 @@
   <!-- Spanish versions -->
   <url><loc>https://incremento.co/es/</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://incremento.co/es/servicios/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://incremento.co/es/servicios/web-design/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://incremento.co/es/servicios/ux-product-design/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://incremento.co/es/servicios/mobile-app-ui/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://incremento.co/es/servicios/web-development/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://incremento.co/es/servicios/ecommerce/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://incremento.co/es/servicios/ai-automation/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://incremento.co/es/servicios/diseno-web/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://incremento.co/es/servicios/ux-diseno-de-producto/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://incremento.co/es/servicios/diseno-de-apps/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://incremento.co/es/servicios/desarrollo-web/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://incremento.co/es/servicios/tiendas-online/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://incremento.co/es/servicios/automatizacion-con-ia/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://incremento.co/es/servicios/seo/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://incremento.co/es/servicios/paid-social/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://incremento.co/es/servicios/publicidad-redes-sociales/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://incremento.co/es/servicios/analytics-cro/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://incremento.co/es/sitios-web-para-abogados/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://incremento.co/es/sitios-web-para-contables/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
