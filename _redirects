@@ -6,6 +6,10 @@
 # Example:
 # /old-page  /new-page  301
 
+# Landing page consolidated into the service page (2026-07-17) - they
+# targeted the same term and split link equity.
+/pt/criacao-de-sites-lisboa/  /pt/servicos/criacao-de-sites/  301
+
 # ── PT/ES service slugs translated to local search terms (2026-07-14) ──
 # PT buyers search "criação de sites", not "web design"; ES search "diseño web".
 # These sit ABOVE the /pt/services/* wildcard so an old English URL lands on the
