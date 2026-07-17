@@ -11,5 +11,9 @@
 /js/*
   Cache-Control: public, max-age=31536000, immutable
 
+# Images are content-hashed by filename in practice (we rename on change), so a
+# long cache is right - but NOT immutable. A 404 fallback served from this path
+# inherits these headers, and `immutable` pins that mistake at the edge for a
+# year with no way to revalidate. One day, revalidating, is the safer trade.
 /images/*
-  Cache-Control: public, max-age=31536000, immutable
+  Cache-Control: public, max-age=86400, stale-while-revalidate=604800
