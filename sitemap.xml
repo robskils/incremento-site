@@ -36,6 +36,7 @@
   <url><loc>https://incremento.co/blog/seo-lisbon/</loc><changefreq>yearly</changefreq><priority>0.7</priority></url>
   <url><loc>https://incremento.co/blog/lisbon-tech-scene/</loc><changefreq>yearly</changefreq><priority>0.7</priority></url>
   <url><loc>https://incremento.co/blog/ai-consultancy-lisbon/</loc><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://incremento.co/blog/why-hire-ai-consultancy/</loc><changefreq>yearly</changefreq><priority>0.7</priority></url>
   <url><loc>https://incremento.co/blog/how-ai-is-reshaping-digital-marketing/</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
 
   <!-- Portuguese versions -->
@@ -73,6 +74,7 @@
   <url><loc>https://incremento.co/pt/blog/seo-lisboa/</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://incremento.co/pt/blog/cena-tech-lisboa/</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://incremento.co/pt/blog/consultoria-ia-lisboa/</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://incremento.co/pt/blog/porque-contratar-consultoria-ia/</loc><changefreq>yearly</changefreq><priority>0.7</priority></url>
   <url><loc>https://incremento.co/pt/blog/como-a-ia-esta-a-transformar-o-marketing-digital/</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
 
   <!-- Spanish versions -->
@@ -110,5 +112,6 @@
   <url><loc>https://incremento.co/es/blog/seo-lisboa/</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://incremento.co/es/blog/escena-tech-lisboa/</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://incremento.co/es/blog/consultoria-ia-lisboa/</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://incremento.co/es/blog/por-que-contratar-consultoria-ia/</loc><changefreq>yearly</changefreq><priority>0.7</priority></url>
   <url><loc>https://incremento.co/es/blog/como-la-ia-esta-transformando-el-marketing-digital/</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
 </urlset>
