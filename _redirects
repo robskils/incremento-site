@@ -6,6 +6,10 @@
 # Example:
 # /old-page  /new-page  301
 
+# Brand re-messaging (2026-08-21): Labs retired, folded into the
+# Transform pillar. 301 keeps its "AI consultancy Lisbon" equity.
+/labs/  /transform/  301
+
 # Landing page consolidated into the service page (2026-07-17) - they
 # targeted the same term and split link equity.
 /pt/criacao-de-sites-lisboa/  /pt/servicos/criacao-de-sites/  301
