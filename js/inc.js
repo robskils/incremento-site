@@ -78,7 +78,7 @@
     };
 
     try {
-      const res = await fetch('https://enquiries.incremento.co', {
+      const res = await fetch('https://enquiries.incremento.eu', {
         method:  'POST',
         headers: { 'Content-Type': 'application/json' },
         body:    JSON.stringify(payload),
@@ -92,7 +92,7 @@
     } catch {
       btn.disabled = false;
       btn.textContent = 'Send message';
-      alert('Something went wrong. Please email us directly at hello@incremento.co');
+      alert('Something went wrong. Please email us directly at hello@incremento.eu');
     }
   });
 })();
