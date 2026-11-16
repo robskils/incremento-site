@@ -1,0 +1,20 @@
+{
+  "name": "Incremento",
+  "domain": "https://incremento.eu",
+  "lang": "en",
+  "posts_dir": "blog",
+  "index": "blog/index.html",
+  "skeleton": "blog/seo-lisbon/index.html",
+  "url_prefix": "/blog/",
+  "title_suffix": " | Incremento",
+  "slug_note": "English words; this is the English edition of the site.",
+  "body_start": "<div class=\"blog-post-body\">",
+  "body_end": "<!-- CTA -->",
+  "body_suffix": "\n\n    </div>\n\n    ",
+  "date_pattern": "(<span class=\"blog-meta-date\">[\\s\\S]*?</svg>\\s*)[^<]*(\\s*</span>)",
+  "date_format": "%d %b %Y",
+  "card_anchor": "<article class=\"blog-card\"",
+  "card": "<article class=\"blog-card\"><span class=\"blog-tag\">New</span><h3 class=\"mt-3\"><a href=\"@@URL@@\">@@TITLE@@</a></h3><p class=\"mt-3 text-muted\">@@DESC@@</p></article>",
+  "brief": "You write for Incremento, a digital agency in Lisbon. It builds websites, runs SEO and does AI consultancy, mostly for small and mid-sized businesses in Portugal - law firms, clinics, accountants, agencies. The reader is an owner or a marketing lead who has been sold vague things before and is wary.",
+  "voice": "VOICE. Concrete and unsentimental. Specific numbers, named tools, real constraints. Say the awkward thing before the sell - what a project will not do, what it costs, how long it takes. No 'in today's digital landscape', no 'unlock', no 'leverage', no 'game-changer'. Short paragraphs. British spelling. Link to /services/ or /contact/ once at most, and only where it genuinely helps."
+}
