@@ -1,0 +1,25 @@
+name: Publish posts
+on:
+  # Every day, not only on writing days: which days a post is written is a
+  # setting in the admin, and this only publishes what is waiting. Off the
+  # hour, because GitHub drops scheduled runs under load and minute 0 is the
+  # busiest minute there is - lisbonsintratours.com lost a whole publishing
+  # day to a 10:00 run that never fired, on 17 November 2026.
+  schedule:
+    - cron: "17 11 * * *"
+  workflow_dispatch:
+jobs:
+  go:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 _build/pull_posts.py
+      - name: Commit
+        run: |
+          git config user.name "blog bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add -A
+          git diff --staged --quiet || git commit -m "New blog pages"
+          git push
