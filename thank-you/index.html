@@ -95,6 +95,13 @@
       <a href="/" class="btn btn-outline">Back to home</a>
     </div>
 
+    <p id="latest-post" style="margin-top:28px;font-size:0.95rem">
+      <a id="latest-link" href="/blog/" style="color:oklch(0.88 0.20 135);text-decoration:none;font-weight:500;display:inline-flex;align-items:center;gap:0.4rem">
+        <span id="latest-label">Read our latest thinking on the blog</span>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+      </a>
+    </p>
+
   </div>
 </section>
 
@@ -149,6 +156,24 @@
 
 <script async defer src="https://app.visitortracking.com/assets/js/tracer.js"></script>
 <script>function init_tracer(){var tracer=new Tracer({websiteId:"9b770790-8cca-47ce-be01-208be832ce14",async:true,debug:false});}</script>
+<script>
+/* Progressive upgrade: once the automated blog has published posts, name the
+   newest one here. Until then the link above points at /blog/. Feed is CORS-open. */
+(function(){
+  try{
+    fetch('https://enquiries.incremento.eu/api/blog-feed').then(function(r){return r.ok?r.json():[];}).then(function(posts){
+      if(!Array.isArray(posts)||!posts.length) return;
+      posts.sort(function(a,b){return String(b.date||b.published_at||b.created_at||'').localeCompare(String(a.date||a.published_at||a.created_at||''));});
+      var p=posts[0];
+      if(!p||!p.slug||!p.title) return;
+      var link=document.getElementById('latest-link'), label=document.getElementById('latest-label');
+      if(!link||!label) return;
+      link.href='/blog/'+p.slug+'/';
+      label.textContent='Read our latest: '+p.title;
+    }).catch(function(){});
+  }catch(e){}
+})();
+</script>
 <script src="/js/inc.js?v=20261117"></script>
 </body>
 </html>
