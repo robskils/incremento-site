@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<script>window.INC_TRACK=(function(){try{var k='inc_notrack',p=location.pathname;if(p==='/notrack/'){if(/[?&]undo=1/.test(location.search))localStorage.removeItem(k);else localStorage.setItem(k,'1');return false;}return localStorage.getItem(k)!=='1';}catch(e){return true;}})();</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Not counted - Incremento</title>
+<meta name="description" content="Stop counting this browser.">
+<meta name="robots" content="noindex">
+<link rel="canonical" href="https://incremento.eu/notrack/">
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}if(window.INC_TRACK){var g=document.createElement('script');g.async=true;g.src='https://www.googletagmanager.com/gtag/js?id=G-KX365T81ZP';document.head.appendChild(g);gtag("js",new Date());gtag("config","G-KX365T81ZP");}</script>
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="preload" href="/fonts/space-grotesk-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/css/inc.css">
+</head>
+<body>
+
+<!-- ── HEADER ──────────────────────────────────────────────── -->
+<header class="site-header">
+  <div class="container">
+    <div class="header-inner">
+      <a href="/" class="logo" aria-label="Incremento - home">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+          <defs>
+            <linearGradient id="inc-grad-h" x1="0" y1="32" x2="32" y2="0" gradientUnits="userSpaceOnUse">
+              <stop offset="0%" stop-color="oklch(0.88 0.20 135)"/>
+              <stop offset="100%" stop-color="oklch(0.92 0.18 195)"/>
+            </linearGradient>
+          </defs>
+          <rect x="4"  y="20" width="5" height="8"  rx="2.5" fill="url(#inc-grad-h)" opacity="0.55"/>
+          <rect x="12" y="14" width="5" height="14" rx="2.5" fill="url(#inc-grad-h)" opacity="0.78"/>
+          <rect x="20" y="10" width="5" height="18" rx="2.5" fill="url(#inc-grad-h)"/>
+          <circle cx="22.5" cy="5.5" r="2.25" fill="url(#inc-grad-h)"/>
+        </svg>
+        <span class="logo-wordmark">incremento<span class="logo-dot">.</span></span>
+      </a>
+
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="/">Home</a>
+        <a href="/transform/">Transform</a>
+        <a href="/grow/">Grow</a>
+        <a href="/understand/">Insight</a>
+        <a href="/work/">Work</a>
+        <a href="/about/">About</a>
+        <a href="/blog/">Blog</a>
+        <a href="/contact/">Contact</a>
+      </nav>
+
+      <a href="/contact/" class="btn btn-hero header-cta">Start a project</a>
+
+      <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <svg class="icon-menu" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        <svg class="icon-close" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" style="display:none"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+    </div>
+  </div>
+  <div class="mobile-nav" aria-label="Mobile navigation">
+    <div class="mobile-nav-inner">
+      <a href="/">Home</a>
+      <a href="/transform/">Transform</a>
+        <a href="/grow/">Grow</a>
+        <a href="/understand/">Insight</a>
+      <a href="/work/">Work</a>
+      <a href="/about/">About</a>
+      <a href="/blog/">Blog</a>
+      <a href="/contact/">Contact</a>
+      <a href="/contact/" class="btn btn-hero" style="margin-top:0.5rem">Start a project</a>
+    </div>
+  </div>
+</header>
+
+<!-- ── NOT COUNTED (Robin's switch: unlinked, noindex, not in the sitemap) ── -->
+<section style="min-height:70vh;display:flex;align-items:center;justify-content:center;padding:80px 20px">
+  <div style="text-align:center;max-width:600px">
+    <div class="nt-off">
+      <h1 style="font-family:'Space Grotesk',sans-serif;font-size:clamp(1.8rem,4vw,2.6rem);font-weight:700;letter-spacing:-0.03em;margin-bottom:16px">Not counted</h1>
+      <p style="font-size:1.15rem;line-height:1.7;color:var(--fg-muted,#94a3b8);margin-bottom:20px">This browser is no longer counted. Your visits to incremento.eu from here stay out of Google Analytics and Visitor Tracking.</p>
+      <p style="font-size:1.15rem;line-height:1.7;color:var(--fg-muted,#94a3b8);margin-bottom:20px">Open this page once in every browser and on every device you use. Clearing this browser's site data switches counting back on.</p>
+      <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:16px"><a href="/" class="btn btn-hero">Go to the home page</a><a href="/notrack/?undo=1" class="btn btn-outline">Count this browser again</a></div>
+    </div>
+    <div class="nt-on" hidden>
+      <h1 style="font-family:'Space Grotesk',sans-serif;font-size:clamp(1.8rem,4vw,2.6rem);font-weight:700;letter-spacing:-0.03em;margin-bottom:16px">Counted again</h1>
+      <p style="font-size:1.15rem;line-height:1.7;color:var(--fg-muted,#94a3b8);margin-bottom:20px">This browser is counted again, like any other visitor.</p>
+      <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:16px"><a href="/notrack/" class="btn btn-hero">Stop counting this browser</a><a href="/" class="btn btn-outline">Go to the home page</a></div>
+    </div>
+  </div>
+</section>
+<script>if(/[?&]undo=1/.test(location.search)){document.querySelector('.nt-off').hidden=true;document.querySelector('.nt-on').hidden=false;}</script>
+
+<!-- ── FOOTER ────────────────────────────────────────────────── -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col footer-col-brand">
+        <a href="/" class="logo footer-logo" aria-label="Incremento - home">
+          <svg width="28" height="28" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+            <defs><linearGradient id="inc-grad-f" x1="0" y1="32" x2="32" y2="0" gradientUnits="userSpaceOnUse"><stop offset="0%" stop-color="oklch(0.88 0.20 135)"/><stop offset="100%" stop-color="oklch(0.92 0.18 195)"/></linearGradient></defs>
+            <rect x="4" y="20" width="5" height="8" rx="2.5" fill="url(#inc-grad-f)" opacity="0.55"/>
+            <rect x="12" y="14" width="5" height="14" rx="2.5" fill="url(#inc-grad-f)" opacity="0.78"/>
+            <rect x="20" y="10" width="5" height="18" rx="2.5" fill="url(#inc-grad-f)"/>
+            <circle cx="22.5" cy="5.5" r="2.25" fill="url(#inc-grad-f)"/>
+          </svg>
+          <span class="logo-wordmark">incremento<span class="logo-dot">.</span></span>
+        </a>
+        <p class="mt-4 text-muted" style="max-width:24rem; font-size:0.875rem">The digital expertise once reserved for big companies, built for small and growing businesses. <span style="color:var(--fg)">Transform</span> how you work, <span style="color:var(--fg)">Grow</span> who you reach, gain <span style="color:var(--fg)">Insight</span> from your data.</p>
+      </div>
+      <div class="footer-col">
+        <h4>What we do</h4>
+        <ul>
+          <li><a href="/transform/">Transform</a></li>
+          <li><a href="/grow/">Grow</a></li>
+          <li><a href="/understand/">Insight</a></li>
+          <li><a href="/work/">Work</a></li>
+          <li><a href="/about/">About</a></li>
+          <li><a href="/blog/">Blog</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Get in touch</h4>
+        <ul style="gap:0.75rem">
+          <li class="footer-contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <a href="mailto:contact@incremento.eu" style="color:inherit;text-decoration:none">contact@incremento.eu</a>
+          </li>
+          <li class="footer-contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <a href="https://g.page/r/CX7tTmFPUfxEEAE" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">Rua das Trinas 79, 1200-856 Lisboa, Portugal</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© <script>document.write(new Date().getFullYear())</script> Incremento. All rights reserved.</p>
+      <p>Crafted in Lisbon · Shipped worldwide</p>
+    </div>
+  </div>
+</footer>
+
+<script>function init_tracer(){var tracer=new Tracer({websiteId:"9b770790-8cca-47ce-be01-208be832ce14",async:true,debug:false});}if(window.INC_TRACK){var vt=document.createElement('script');vt.async=true;vt.defer=true;vt.src='https://app.visitortracking.com/assets/js/tracer.js';document.head.appendChild(vt);}</script>
+<script src="/js/inc.js?v=20261117"></script>
+</body>
+</html>
